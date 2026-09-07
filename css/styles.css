@@ -300,6 +300,16 @@ a:hover { color: var(--ink); }
   color: var(--text-72);
 }
 
+.venue__photo {
+  height: min(360px, 46vw);
+  min-height: 220px;
+  border: 1px solid var(--rule-12);
+  background-image: url('../assets/martinstown-house.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .venue__map-poi {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
