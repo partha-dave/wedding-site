@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Karishma &amp; Partha</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="page">
+
+  <div class="hero" id="hero">
+    <div class="hero__track" id="heroTrack">
+      <div class="hero__slide"><div class="hero__slide--image hero__slide--1"></div></div>
+      <div class="hero__slide"><div class="hero__placeholder">Hero image 2</div></div>
+      <div class="hero__slide"><div class="hero__placeholder">Hero image 3</div></div>
+      <div class="hero__slide"><div class="hero__placeholder">Hero image 4</div></div>
+    </div>
+    <button type="button" class="hero__arrow hero__arrow--prev" id="heroPrev" aria-label="Previous image">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"></path></svg>
+    </button>
+    <button type="button" class="hero__arrow hero__arrow--next" id="heroNext" aria-label="Next image">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"></path></svg>
+    </button>
+    <div class="hero__dots" id="heroDots">
+      <span class="hero__dot is-active"></span>
+      <span class="hero__dot"></span>
+      <span class="hero__dot"></span>
+      <span class="hero__dot"></span>
+    </div>
+  </div>
+
+  <div class="intro">
+    <div class="intro__names">Karishma &amp; Partha</div>
+    <div class="intro__tag">Lorem ipsum dolor sit amet consectetur</div>
+    <div class="intro__note">
+      <div class="skeleton-line" style="width:100%"></div>
+      <div class="skeleton-line" style="width:82%"></div>
+      <div class="intro__caption">welcome note &mdash; copy TBC</div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="section-label">
+      <div class="section-label__text">The schedule</div>
+      <div class="section-label__rule"></div>
+    </div>
+
+    <div class="schedule">
+      <div class="schedule__row">
+        <div class="schedule__date">
+          <div class="schedule__day">31</div>
+          <div class="schedule__month">Mon &middot; Aug 2026</div>
+        </div>
+        <div class="schedule__body">
+          <div class="schedule__name">Jago</div>
+          <div class="schedule__place">Cedar Court, Bradford</div>
+          <div class="schedule__skeleton">
+            <div class="skeleton-line" style="width:88%"></div>
+            <div class="skeleton-line" style="width:52%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="schedule__row">
+        <div class="schedule__date">
+          <div class="schedule__day">14</div>
+          <div class="schedule__month">Sat &middot; Aug 2027</div>
+        </div>
+        <div class="schedule__body">
+          <div class="schedule__name">Sangeet</div>
+          <div class="schedule__place">Martinstown House, Co. Kildare</div>
+          <div class="schedule__skeleton">
+            <div class="skeleton-line" style="width:92%"></div>
+            <div class="skeleton-line" style="width:46%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="schedule__row">
+        <div class="schedule__date">
+          <div class="schedule__day">15</div>
+          <div class="schedule__month">Sun &middot; Aug 2027</div>
+        </div>
+        <div class="schedule__body">
+          <div class="schedule__name">Wedding Ceremony &amp; Reception</div>
+          <div class="schedule__place">Martinstown House, Co. Kildare</div>
+          <div class="schedule__skeleton">
+            <div class="skeleton-line" style="width:100%"></div>
+            <div class="skeleton-line" style="width:62%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="venue">
+    <div class="wrap venue__inner">
+
+      <div class="venue__intro">
+        <div class="venue__label">The wedding weekend</div>
+        <div class="venue__title">Martinstown House</div>
+        <div class="venue__meta">The Curragh, County Kildare, Ireland &middot; 14&ndash;15 August 2027</div>
+        <p class="venue__copy">Martinstown House is a family-operated country house set in the leafy landscape of the Curragh in County Kildare. It&rsquo;s set on a fully working farmyard that houses cattle, sheep, horses and two rescue donkeys, and the entire estate is a bird sanctuary.</p>
+      </div>
+
+      <div class="venue__map-poi">
+        <div class="map-frame">
+          <iframe src="https://www.google.com/maps?q=Martinstown+House,+The+Curragh,+Co.+Kildare,+Ireland&z=12&output=embed" title="Google Map showing Martinstown House, County Kildare" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="poi-panel">
+          <div class="poi-panel__title">Points of interest</div>
+
+          <div class="poi-row">
+            <div class="poi-row__head">
+              <span class="poi-row__name">Dublin Airport</span>
+              <span class="poi-row__time">1 hr</span>
+            </div>
+            <div class="poi-row__links">
+              <a class="link-underline" href="https://www.google.com/maps/dir/?api=1&origin=Dublin+Airport&destination=Martinstown+House,+The+Curragh,+Co.+Kildare,+Ireland" target="_blank" rel="noopener">Directions</a>
+              <a class="link-underline" href="#" target="_blank" rel="noopener">More information</a>
+            </div>
+          </div>
+
+          <div class="poi-row">
+            <div class="poi-row__head">
+              <span class="poi-row__name">The Curragh</span>
+              <span class="poi-row__time">5 min</span>
+            </div>
+            <div class="poi-row__links">
+              <a class="link-underline" href="https://www.google.com/maps/dir/?api=1&origin=The+Curragh,+Co.+Kildare&destination=Martinstown+House,+The+Curragh,+Co.+Kildare,+Ireland" target="_blank" rel="noopener">Directions</a>
+              <a class="link-underline" href="#" target="_blank" rel="noopener">More information</a>
+            </div>
+          </div>
+
+          <div class="poi-row">
+            <div class="poi-row__head">
+              <span class="poi-row__name">Kildare</span>
+              <span class="poi-row__time">15 min</span>
+            </div>
+            <div class="poi-row__links">
+              <a class="link-underline" href="https://www.google.com/maps/dir/?api=1&origin=Kildare+Town,+Ireland&destination=Martinstown+House,+The+Curragh,+Co.+Kildare,+Ireland" target="_blank" rel="noopener">Directions</a>
+              <a class="link-underline" href="#" target="_blank" rel="noopener">More information</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="venue__address-row">
+        <div class="venue__address">Martinstown House, Martinstown, The Curragh, Co. Kildare, Ireland</div>
+        <a class="link-arrow" href="https://www.google.com/maps/search/?api=1&query=Martinstown+House+Curragh+Kildare" target="_blank" rel="noopener">
+          <span>Open in Maps</span><span style="font-size:14px;line-height:1">&rarr;</span>
+        </a>
+      </div>
+
+      <div class="airport-card">
+        <div class="airport-card__title">Nearest airport</div>
+        <div class="airport-card__grid">
+          <div class="airport-card__main">
+            <div class="airport-card__name">Dublin Airport (DUB)</div>
+            <div class="airport-card__drive">Around an hour&rsquo;s drive from the house</div>
+            <p class="airport-card__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <div style="margin-top:10px">
+              <a class="link-arrow" href="https://www.google.com/maps/dir/?api=1&origin=Dublin+Airport&destination=Martinstown+House,+The+Curragh,+Co.+Kildare,+Ireland" target="_blank" rel="noopener">
+                <span>Directions</span><span style="font-size:14px;line-height:1">&rarr;</span>
+              </a>
+            </div>
+          </div>
+          <div class="airport-card__flights">
+            <a class="link-arrow" href="https://www.google.com/travel/flights?q=flights%20from%20LBA%20to%20DUB" target="_blank" rel="noopener"><span>Flights from Leeds Bradford</span><span style="font-size:14px;line-height:1">&rarr;</span></a>
+            <a class="link-arrow" href="https://www.google.com/travel/flights?q=flights%20from%20MAN%20to%20DUB" target="_blank" rel="noopener"><span>Flights from Manchester</span><span style="font-size:14px;line-height:1">&rarr;</span></a>
+            <a class="link-arrow" href="https://www.google.com/travel/flights?q=flights%20from%20London%20to%20DUB" target="_blank" rel="noopener"><span>Flights from all London airports</span><span style="font-size:14px;line-height:1">&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="weekend-title">Wedding Weekend Schedule</div>
+
+      <div class="event-cards">
+
+        <div class="event-card">
+          <div class="event-card__body">
+            <div class="event-card__meta">
+              <span class="event-card__date">Fri 13th Aug 2027</span>
+              <span class="event-card__pill">Optional</span>
+            </div>
+            <div class="event-card__name">Informal gathering in Dublin</div>
+            <div class="event-card__place">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"></path><circle cx="12" cy="10" r="2.4"></circle></svg>
+              <span>Dublin &middot; venue TBC</span>
+            </div>
+            <p class="event-card__copy">Completely optional. We&rsquo;ll be in Dublin the night before heading to Kildare, and we know some of you will choose to come out a day early &mdash; so if you&rsquo;re around, come and find us for a drink.</p>
+          </div>
+          <a class="event-card__ics" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0AVERSION%3A2.0%0APRODID%3A-%2F%2FWedding%2F%2FEN%0ABEGIN%3AVEVENT%0AUID%3A20270813-DublinGathering%40wedding%0ADTSTART%3BVALUE%3DDATE%3A20270813%0ADTEND%3BVALUE%3DDATE%3A20270814%0ASUMMARY%3AInformal%20gathering%20in%20Dublin%20(optional)%20%E2%80%94%20Karishma%20%26%20Partha%0ALOCATION%3ADublin%2C%20Ireland%0AEND%3AVEVENT%0AEND%3AVCALENDAR" download="dublin-gathering.ics" aria-label="Add the Dublin gathering to calendar">
+            <span style="display:flex"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4M12 14v4M10 16h4"></path></svg></span>
+            <span>Add to calendar</span>
+          </a>
+        </div>
+
+        <div class="event-card">
+          <div class="event-card__body">
+            <div class="event-card__meta">
+              <span class="event-card__date">Sat 14th Aug 2027</span>
+            </div>
+            <div class="event-card__name">Sangeet</div>
+            <div class="event-card__place">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"></path><circle cx="12" cy="10" r="2.4"></circle></svg>
+              <span>Martinstown House</span>
+            </div>
+            <p class="event-card__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <a class="event-card__ics" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0AVERSION%3A2.0%0APRODID%3A-%2F%2FWedding%2F%2FEN%0ABEGIN%3AVEVENT%0AUID%3A20270814-SangeetKarishmaPartha%40wedding%0ADTSTART%3BVALUE%3DDATE%3A20270814%0ADTEND%3BVALUE%3DDATE%3A20270815%0ASUMMARY%3ASangeet%20%E2%80%94%20Karishma%20%26%20Partha%0ALOCATION%3AMartinstown%20House%2C%20The%20Curragh%2C%20County%20Kildare%2C%20Ireland%0AEND%3AVEVENT%0AEND%3AVCALENDAR" download="sangeet.ics" aria-label="Add sangeet to calendar">
+            <span style="display:flex"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4M12 14v4M10 16h4"></path></svg></span>
+            <span>Add to calendar</span>
+          </a>
+        </div>
+
+        <div class="event-card">
+          <div class="event-card__body">
+            <div class="event-card__meta">
+              <span class="event-card__date">Sun 15th Aug 2027</span>
+            </div>
+            <div class="event-card__name">Wedding Ceremony &amp; Reception</div>
+            <div class="event-card__place">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11z"></path><circle cx="12" cy="10" r="2.4"></circle></svg>
+              <span>Martinstown House</span>
+            </div>
+            <p class="event-card__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+          </div>
+          <a class="event-card__ics" href="data:text/calendar;charset=utf-8,BEGIN%3AVCALENDAR%0AVERSION%3A2.0%0APRODID%3A-%2F%2FWedding%2F%2FEN%0ABEGIN%3AVEVENT%0AUID%3A20270815-WeddingCeremonyReceptionKarishmaPartha%40wedding%0ADTSTART%3BVALUE%3DDATE%3A20270815%0ADTEND%3BVALUE%3DDATE%3A20270816%0ASUMMARY%3AWedding%20Ceremony%20%26%20Reception%20%E2%80%94%20Karishma%20%26%20Partha%0ALOCATION%3AMartinstown%20House%2C%20The%20Curragh%2C%20County%20Kildare%2C%20Ireland%0AEND%3AVEVENT%0AEND%3AVCALENDAR" download="wedding.ics" aria-label="Add wedding to calendar">
+            <span style="display:flex"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4M12 14v4M10 16h4"></path></svg></span>
+            <span>Add to calendar</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="stay">
+    <div class="section-label" style="padding:0">
+      <div class="section-label__text">Where to stay</div>
+      <div class="section-label__rule"></div>
+    </div>
+
+    <div class="stay-grid">
+      <div class="stay-card">
+        <div class="stay-card__photo">
+          <div class="hero__placeholder">Photo &mdash; the stables</div>
+          <div class="stay-card__pill">At the venue</div>
+        </div>
+        <div class="stay-card__body">
+          <div class="stay-card__title">Stables</div>
+          <p class="stay-card__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+          <ul class="stay-card__list">
+            <li>Rooms in the converted stable block</li>
+            <li>Sleeps a limited number &mdash; first come</li>
+            <li>Steps from the marquee</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="stay-card">
+        <div class="stay-card__photo">
+          <div class="hero__placeholder">Photo &mdash; glamping</div>
+          <div class="stay-card__pill">At the venue</div>
+        </div>
+        <div class="stay-card__body">
+          <div class="stay-card__title">Glamping</div>
+          <p class="stay-card__copy">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+          <ul class="stay-card__list">
+            <li>Pre-pitched bell tents in the field</li>
+            <li>Beds and bedding provided</li>
+            <li>A short walk to the house</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="shared-band">
+      <div class="shared-band__head">
+        <div class="shared-band__title">Shared by the Stables and Glamping</div>
+        <span class="shared-band__label">At the venue</span>
+      </div>
+      <p class="shared-band__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="chip-row">
+        <span class="chip">Shower and washing facilities</span>
+        <span class="chip">Breakfast included</span>
+        <span class="chip">Towels and bedding provided</span>
+        <span class="chip">Parking on site</span>
+        <span class="chip">Access from Friday afternoon</span>
+      </div>
+    </div>
+
+    <div class="hotel-grid">
+      <div class="stay-card">
+        <div class="stay-card__photo">
+          <div class="hero__placeholder">Photo &mdash; nearby hotel</div>
+        </div>
+        <div class="stay-card__body">
+          <div class="stay-card__title">Nearby Hotels</div>
+          <p class="stay-card__copy">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+          <ul class="stay-card__list">
+            <li>A range of hotels within a short drive</li>
+            <li>Taxis back to Kildare town</li>
+            <li>Book early &mdash; August is busy</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="section-label" style="padding:0">
+      <div class="section-label__text">Questions</div>
+      <div class="section-label__rule"></div>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item"><summary><span>Dress code</span><span class="faq-item__plus">+</span></summary>
+        <div class="faq-item__answer"><div class="skeleton-line" style="width:100%"></div><div class="skeleton-line" style="width:70%"></div></div>
+      </details>
+      <details class="faq-item"><summary><span>Getting between Kildare and Bradford</span><span class="faq-item__plus">+</span></summary>
+        <div class="faq-item__answer"><div class="skeleton-line" style="width:100%"></div><div class="skeleton-line" style="width:84%"></div></div>
+      </details>
+      <details class="faq-item"><summary><span>Are children welcome?</span><span class="faq-item__plus">+</span></summary>
+        <div class="faq-item__answer"><div class="skeleton-line" style="width:76%"></div></div>
+      </details>
+      <details class="faq-item"><summary><span>Plus ones</span><span class="faq-item__plus">+</span></summary>
+        <div class="faq-item__answer"><div class="skeleton-line" style="width:68%"></div></div>
+      </details>
+      <details class="faq-item"><summary><span>Parking</span><span class="faq-item__plus">+</span></summary>
+        <div class="faq-item__answer"><div class="skeleton-line" style="width:80%"></div></div>
+      </details>
+      <details class="faq-item"><summary><span>What happens at a Sangeet?</span><span class="faq-item__plus">+</span></summary>
+        <div class="faq-item__answer"><div class="skeleton-line" style="width:100%"></div><div class="skeleton-line" style="width:64%"></div></div>
+      </details>
+      <details class="faq-item"><summary><span>Weather and outdoor plans</span><span class="faq-item__plus">+</span></summary>
+        <div class="faq-item__answer"><div class="skeleton-line" style="width:88%"></div></div>
+      </details>
+      <details class="faq-item"><summary><span>Gifts</span><span class="faq-item__plus">+</span></summary>
+        <div class="faq-item__answer"><div class="skeleton-line" style="width:72%"></div></div>
+      </details>
+    </div>
+  </div>
+
+  <div class="contact">
+    <div class="contact__inner">
+      <div class="contact__heading">
+        <div class="contact__label">Any questions, just ask</div>
+        <div class="contact__title">WhatsApp us</div>
+      </div>
+      <div class="contact__people">
+        <div class="contact__person">
+          <div class="contact__person-name">Karishma</div>
+          <div class="contact__person-number">+44 &middot; number TBC</div>
+        </div>
+        <div class="contact__person">
+          <div class="contact__person-name">Partha</div>
+          <div class="contact__person-number">+44 &middot; number TBC</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="closing-image"></div>
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
