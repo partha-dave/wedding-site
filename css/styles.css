@@ -320,7 +320,7 @@ a:hover { color: var(--ink); }
 .poi-panel {
   border: 1px solid var(--rule-12);
   background: #ffffff;
-  padding: 16px 20px 6px;
+  padding: 20px 22px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -328,36 +328,28 @@ a:hover { color: var(--ink); }
 }
 
 .poi-panel__title {
-  font: 400 19px/1.2 var(--serif);
+  font: 400 21px/1.2 var(--serif);
   color: var(--ink);
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .poi-row {
-  padding: 9px 0;
-  border-bottom: 1px solid var(--rule-10);
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 4px 12px;
-}
-
-.poi-row__head {
+  padding: 10px 0;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: 12px;
-  flex: 1 1 100%;
 }
 
-.poi-row__name { font: 500 14px var(--sans); color: var(--ink); }
-.poi-row__time { font: 400 13px var(--sans); color: var(--accent); flex: none; }
+.poi-row__name { font: 600 15px var(--sans); color: var(--ink); }
+.poi-row__time { font: 400 14px var(--sans); color: var(--text-55); flex: none; }
 
-.poi-row__links {
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-  margin-top: -1px;
+.poi-panel__caption {
+  margin-top: 4px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule-10);
+  font: 400 12px var(--sans);
+  color: var(--text-45);
 }
 
 .link-underline {
