@@ -191,7 +191,7 @@ a:hover { color: var(--ink); }
 }
 
 .section-label__text {
-  font: 700 11px var(--sans);
+  font: 700 14px var(--sans);
   color: var(--accent);
 }
 
