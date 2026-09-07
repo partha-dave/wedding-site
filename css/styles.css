@@ -22,7 +22,7 @@
   --skeleton: #e2dbcb;
   --skeleton-2: #e6e0d2;
   --serif: 'abril-display', 'Cormorant Garamond', serif;
-  --sans: Karla, system-ui, sans-serif;
+  --sans: 'josefin-sans', Karla, sans-serif;
 }
 
 * { box-sizing: border-box; }
