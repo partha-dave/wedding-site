@@ -306,7 +306,7 @@ a:hover { color: var(--ink); }
   border: 1px solid var(--rule-12);
   background-image: url('../assets/martinstown-house.jpeg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 
