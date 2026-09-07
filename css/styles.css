@@ -559,6 +559,13 @@ a:hover { color: var(--ink); }
   background-repeat: no-repeat;
 }
 
+.stay-card__photo--hotel {
+  background-image: url('../assets/hotel.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .stay-card__pill {
   position: absolute;
   top: 12px;
