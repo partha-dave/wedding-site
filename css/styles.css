@@ -567,6 +567,22 @@ a:hover { color: var(--ink); }
   border: 1px solid var(--rule-12);
 }
 
+.stay-card__cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  padding: 18px 20px;
+  border-top: 1px solid var(--rule-12);
+  background: var(--accent);
+  color: #ffffff;
+  font: 600 15px var(--sans);
+  text-align: center;
+  text-decoration: none;
+}
+
+.stay-card__cta:hover { background: var(--ink); color: #ffffff; }
+
 .stay-card__photo {
   height: 170px;
   position: relative;
