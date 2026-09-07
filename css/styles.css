@@ -541,6 +541,10 @@ a:hover { color: var(--ink); }
   margin-top: 6px;
 }
 
+.stay > .stay-card {
+  margin-top: 6px;
+}
+
 .stay-card {
   display: flex;
   flex-direction: column;
@@ -551,6 +555,39 @@ a:hover { color: var(--ink); }
 .stay-card__photo {
   height: 170px;
   position: relative;
+}
+
+.stay-card__photos {
+  height: 170px;
+  position: relative;
+  display: flex;
+}
+
+.stay-card__photo-half {
+  flex: 1;
+  height: 100%;
+}
+
+.stay-card__photo-half:first-child {
+  border-right: 1px solid var(--rule-12);
+}
+
+.allocation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 2px;
+}
+
+.allocation-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.allocation-col__title {
+  font: 600 15px var(--sans);
+  color: var(--ink);
 }
 
 .stay-card__pill {
