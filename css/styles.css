@@ -21,7 +21,7 @@
   --text-72: rgba(0, 0, 0, .72);
   --skeleton: #e2dbcb;
   --skeleton-2: #e6e0d2;
-  --serif: 'Cormorant Garamond', serif;
+  --serif: 'abril-display', 'Cormorant Garamond', serif;
   --sans: Karla, system-ui, sans-serif;
 }
 
@@ -244,7 +244,7 @@ a:hover { color: var(--ink); }
 }
 
 .schedule__name {
-  font: 500 24px/1.2 var(--serif);
+  font: 400 24px/1.2 var(--serif);
   color: var(--ink);
 }
 
