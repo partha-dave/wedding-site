@@ -155,7 +155,7 @@ a:hover { color: var(--ink); }
 }
 
 .intro__tag {
-  font: 700 11px/1 var(--sans);
+  font: 700 14px/1 var(--sans);
   color: var(--accent);
 }
 
@@ -284,7 +284,7 @@ a:hover { color: var(--ink); }
   gap: 10px;
 }
 
-.venue__label { font: 700 11px var(--sans); color: var(--accent); }
+.venue__label { font: 700 14px var(--sans); color: var(--accent); }
 
 .venue__title {
   font: 400 clamp(27px, 6vw, 34px) / 1.15 var(--serif);
@@ -764,7 +764,7 @@ a:hover { color: var(--ink); }
 }
 
 .contact__heading { display: flex; flex-direction: column; gap: 8px; }
-.contact__label { font: 500 11px var(--sans); color: var(--accent); }
+.contact__label { font: 500 14px var(--sans); color: var(--accent); }
 .contact__title { font: 400 22px var(--serif); color: var(--ink); }
 
 .contact__people { display: flex; gap: 12px; flex-wrap: wrap; }
