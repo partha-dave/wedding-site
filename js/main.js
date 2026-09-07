@@ -10,7 +10,7 @@
   let timer = null;
 
   function render() {
-    track.style.marginLeft = `-${index * 25}%`;
+    track.style.marginLeft = `-${index * 100}%`;
     dots.forEach((dot, i) => dot.classList.toggle('is-active', i === index));
   }
 
