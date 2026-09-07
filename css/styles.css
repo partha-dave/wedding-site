@@ -585,7 +585,7 @@ a:hover { color: var(--ink); }
   border: 1px solid var(--rule-12);
   border-radius: 999px;
   padding: 6px 13px;
-  font: 500 12px var(--sans);
+  font: 700 12px var(--sans);
   color: var(--accent);
 }
 
