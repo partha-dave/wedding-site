@@ -79,7 +79,7 @@ a:hover { color: var(--ink); }
   background-repeat: no-repeat;
 }
 
-.hero__slide--image.hero__slide--1 { background-image: url('../assets/hero.png'); }
+.hero__slide--image.hero__slide--1 { background-image: url('../assets/hero.jpg'); }
 
 .hero__placeholder {
   width: 100%;
@@ -743,7 +743,7 @@ a:hover { color: var(--ink); }
 
 .closing-image {
   height: 260px;
-  background-image: url('../assets/footer.png');
+  background-image: url('../assets/footer.jpg');
   background-size: cover;
   background-position: 50% 60%;
   background-repeat: no-repeat;
