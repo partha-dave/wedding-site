@@ -291,7 +291,7 @@ a:hover { color: var(--ink); }
   color: var(--ink);
 }
 
-.venue__meta { font: 400 14px var(--sans); color: var(--text-6); }
+.venue__meta { font: 400 15px/1.65 var(--sans); color: var(--text-72); }
 
 .venue__copy {
   max-width: 600px;
