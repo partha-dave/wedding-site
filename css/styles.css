@@ -435,19 +435,30 @@ a:hover { color: var(--ink); }
 .airport-card__name { font: 500 16px var(--sans); color: var(--ink); }
 .airport-card__drive { font: 400 13px var(--sans); color: var(--accent); }
 
-.airport-card__copy {
-  margin: 8px 0 0;
-  font: 400 14px/1.7 var(--sans);
-  color: var(--text-62);
-}
-
 .airport-card__flights {
   display: flex;
   flex-direction: column;
-  gap: 11px;
 }
 
-.airport-card__flights .link-arrow { padding-top: 14px; padding-bottom: 14px; }
+.airport-card__flights-label {
+  font: 400 13px var(--sans);
+  color: var(--text-45);
+  margin-bottom: 4px;
+}
+
+.flight-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule-10);
+  font: 600 14px var(--sans);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.flight-row:hover { color: var(--accent); }
 
 .weekend-title {
   font: 400 clamp(24px, 5.5vw, 30px) / 1.2 var(--serif);
