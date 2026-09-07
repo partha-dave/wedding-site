@@ -545,6 +545,13 @@ a:hover { color: var(--ink); }
   position: relative;
 }
 
+.stay-card__photo--glamping {
+  background-image: url('../assets/Glamping.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 .stay-card__pill {
   position: absolute;
   top: 12px;
