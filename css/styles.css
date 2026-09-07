@@ -155,7 +155,7 @@ a:hover { color: var(--ink); }
 }
 
 .intro__tag {
-  font: 500 11px/1 var(--sans);
+  font: 700 11px/1 var(--sans);
   color: var(--accent);
 }
 
@@ -191,7 +191,7 @@ a:hover { color: var(--ink); }
 }
 
 .section-label__text {
-  font: 500 11px var(--sans);
+  font: 700 11px var(--sans);
   color: var(--accent);
 }
 
@@ -231,7 +231,7 @@ a:hover { color: var(--ink); }
 }
 
 .schedule__month {
-  font: 500 12px var(--sans);
+  font: 700 12px var(--sans);
   color: var(--accent);
   margin-top: 4px;
 }
@@ -284,7 +284,7 @@ a:hover { color: var(--ink); }
   gap: 10px;
 }
 
-.venue__label { font: 500 11px var(--sans); color: var(--accent); }
+.venue__label { font: 700 11px var(--sans); color: var(--accent); }
 
 .venue__title {
   font: 400 clamp(27px, 6vw, 34px) / 1.15 var(--serif);
@@ -390,7 +390,7 @@ a:hover { color: var(--ink); }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font: 500 13px var(--sans);
+  font: 700 13px var(--sans);
   color: var(--accent);
   text-decoration: none;
   border-bottom: 1px solid var(--accent-soft-2);
