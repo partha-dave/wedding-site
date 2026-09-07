@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Wedding//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:20270815-WeddingCeremonyReceptionKarishmaPartha@wedding
+DTSTAMP:20260907T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:Wedding Ceremony & Reception — Karishma & Partha
+LOCATION:Martinstown House\, The Curragh\, County Kildare\, Ireland
+END:VEVENT
+END:VCALENDAR
